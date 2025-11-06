@@ -96,3 +96,35 @@ INSERT INTO visits (id, pet_id, vet_id, visit_date, description, cost) VALUES
 -- END OF DATA INSERTION
 -- ===============================================
 
+-- ===============================================
+-- INSERT: visits (Visitas de prueba)
+-- ===============================================
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (1, 2, '2010-03-04', 'rabies shot', 50.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (8, 2, '2010-03-04', 'rabies shot', 50.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (8, 2, '2010-08-04', 'neutered', 150.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (7, 3, '2010-09-04', 'spayed', 200.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (7, 1, '2024-01-15', 'Regular checkup', 75.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (2, 1, '2024-02-20', 'Vaccination', 60.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (3, 2, '2024-03-10', 'Dental cleaning', 120.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (4, 3, '2024-04-05', 'Surgery consultation', 100.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (5, 1, '2024-05-12', 'Emergency visit', 300.00);
+
+INSERT INTO visits (pet_id, vet_id, visit_date, description, cost) VALUES
+    (6, 2, '2024-06-18', 'Follow-up checkup', 80.00);
