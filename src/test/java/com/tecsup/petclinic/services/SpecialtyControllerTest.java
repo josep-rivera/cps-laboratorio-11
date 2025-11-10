@@ -1,4 +1,4 @@
-package com.tecsup.petclinic.controllers;
+package com.tecsup.petclinic.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tecsup.petclinic.entities.Specialty;
